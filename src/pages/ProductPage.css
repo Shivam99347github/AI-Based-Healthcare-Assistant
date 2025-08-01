@@ -1,0 +1,94 @@
+/* src/pages/ProductPage.css */
+
+.product-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+}
+
+.product-container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.image-section {
+  flex: 1 1 300px;
+  max-width: 500px;
+}
+
+.details-section {
+  flex: 1 1 300px;
+}
+
+.details-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.details-section p {
+  margin: 1rem 0;
+}
+
+.details-section h4 {
+  color: #e91e63;
+  font-size: 1.5rem;
+}
+
+#size-select {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.button-social-section {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.add-to-cart-btn {
+  padding: 0.7rem 1.5rem;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #218838;
+}
+
+.social-icons a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #555;
+  padding: 0.5rem;
+  background: #e0e0e0;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.social-icons a:hover {
+  background-color: #d4d4d4;
+}
+
+.reviews-section {
+  margin-top: 2rem;
+}
+
+.loading {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 5rem;
+}

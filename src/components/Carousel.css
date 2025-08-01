@@ -1,0 +1,46 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  max-height: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+/* Arrow buttons */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2.5rem;
+  color: rgb(10, 10, 10);
+  background-color: rgba(243, 243, 243, 0.4);
+  border: none;
+  cursor: pointer;
+  z-index: 1;
+  padding: 8px 14px;
+  border-radius: 50%;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.arrow:hover {
+  background-color: rgba(13, 10, 10, 0.6);
+}
+
+.left {
+  left: 20px;
+}
+
+.right {
+  right: 20px;
+}
