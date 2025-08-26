@@ -2,25 +2,19 @@
 
 ## Overview
 
-my_medical_store is a full-stack e-commerce web application for browsing and purchasing perfumes. The project uses **React.js** for the frontend, **Node.js** and **Express** for the backend, and **MongoDB** as the database. This application allows users to browse products, view details and add reviews.
+my_medical_store is a full-stack e-commerce web application 
 
 
 ## Demo Video
 
 Watch the demo video of the project:
 
-[![Demo Video](https://img.youtube.com/vi/ISaRWjRdVQ0/0.jpg)](https://youtu.be/ISaRWjRdVQ0)
+[![Demo Video]()
 
 
 
 ## Features
 
-- **Product Display**: Browse through various perfumes displayed in a stylish product grid.
-- **Product Details**: Detailed product descriptions with a carousel image gallery and available sizes.
-- **User Reviews**: Users can submit reviews and ratings for products.
-- **Add to Cart**: Simple button to add items to the cart.
-- **Responsive Design**: Fully responsive and compatible across different devices.
-- **Modern UI**: Styled using **Bootstrap** and custom CSS.
 
 
 ## Project Structure
