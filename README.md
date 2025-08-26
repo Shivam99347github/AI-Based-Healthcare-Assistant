@@ -2,20 +2,18 @@
 
 ## Overview
 
-my_medical_store is a full-stack e-commerce web application 
+my_medical_store is a full-stack e-commerce web application
 
 
 ## Demo Video
 
 Watch the demo video of the project:
 
-[![Demo Video]()
+[![Demo Video]()]
 
 
 
 ## Features
-
-
 
 ## Project Structure
 
